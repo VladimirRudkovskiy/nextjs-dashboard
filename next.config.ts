@@ -5,7 +5,8 @@ const nextConfig: NextConfig = {
 		ignoreDuringBuilds: true,
 	},
 	experimental: {
-    ppr: 'incremental'
+    ppr: 'incremental',
+		nodeMiddleware: true,
   },
 	
 	typescript: {
